@@ -71,3 +71,19 @@ main{
     background-color: white;
     color:rgb(61, 49, 49);
 }
+footer{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-text p{
+    font-size: large;
+    width: 60%;
+    padding: 30px;
+    color: #6c757d!important;
+}
+.footer-text a, .footer-nav a{
+    text-decoration: none;
+    text-transform: none;
+}
