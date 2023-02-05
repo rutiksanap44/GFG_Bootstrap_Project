@@ -116,22 +116,28 @@ footer{
     color: white;
     text-decoration: none;
 }
-.toggle-lines{
-    
-}
 @media (max-width:800px) {
-    .navbar-links{
-        display:none;
-    }
     .toggle-lines{
         display:flex;
     }
-}
-@media(min-width : 801px){
     .navbar-links{
-        display:block;
+        display:none;
+        width: 100%;
     }
-    .toggle-lines{
-        display: none;
+    .nav{
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar-links ul{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .navbar-links li a{
+        margin: 2px;
+        width: 100%;
+    }
+    .navbar-links.active{
+        display:flex 
     }
 }
